@@ -6,8 +6,12 @@ html,body{
 	width: 100%;
 	height: 100%;
 }
+@font-face{
+    font-family: 'NotoMono';
+    src: url('../fonts/NotoMono-Regular.ttf');
+}
 body{
-	font-family: 'Roboto';
+	font-family: 'NotoMono';
 }
 ul{
 	padding-left: 90px;
@@ -39,47 +43,47 @@ ul li{
 	letter-spacing: 3px;
 }
 .navigation a:hover{
-	color: #FFDEAD;
+	color: #FF5177;
 }
 .title{
-	font-family: 'Roboto';
+	font-family: 'NotoMono';
 	font-size: 70px;
 	text-align: center;
 	margin-top: 205px;
 	color: #FFFFFF;
 }
 .subtitle{
-	font-family: 'Roboto';
-	font-size:70px;
+	font-family: 'NotoMono';
+	font-size: 70px;
 	text-align: center;
 	color: #00bcd4;
 	margin-top: -20px;
 }
 /* ABOUT ME */
 .about{
-	font-family: 'Roboto';
+	font-family: 'NotoMono';
 	color: #FFFFFF;
 	font-size: 15px;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 #about_me {
-	font-family: 'Roboto';
+	font-family: 'NotoMono';
 	font-size: 35px;
 	text-align: center;
 	color: #FF5177;
 }
 /* CONTACT */
 .contact{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'NotoMono';
 	font-size: 15px;
 	color: #FFFFFF;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 #contact_me {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'NotoMono';
 	font-size: 35px;
 	text-align: center;
 	color: #B2FF59;
